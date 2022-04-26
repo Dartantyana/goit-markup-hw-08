@@ -1,0 +1,20 @@
+.gallery-title,
+.team-section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.gallery-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-list-item {
+    flex-basis: calc((100% - 90px) / 3);
+}
+.gallery-section {
+    padding-bottom: 94px;
+}

@@ -1,0 +1,29 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './base/common';
+@import './base/container';
+@import './base/logo';
+@import './base/header';
+@import './base/navigation';
+@import './base/hero-section';
+@import './base/excellence';
+@import './base/gallery';
+@import './base/team-section';
+@import './base/section';
+@import './base/clients-section';
+@import './base/footer';
+
+@import './portfolio/nav';
+@import './portfolio/onlay';
+@import './portfolio/overlay';
+@import './portfolio/product-section';
+@import './portfolio/portfolio-title';
+
+@import './components/modal-btn';
+@import './components/main-title';
+@import './components/title';
+@import './components/text-pharagrapher';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/footer-form';

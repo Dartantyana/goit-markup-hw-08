@@ -1,0 +1,43 @@
+.excellence-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.text-pharagrapher {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-light);
+}
+
+.excellence-list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.excellence-image {
+  width: 70px;
+  height: 70px;
+}
+
+.excellence-image-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.elements-section {
+  margin-left: 30px;
+  &:nth-last-of-type(n + 4) {
+    margin-bottom: 30px;
+  }
+}
