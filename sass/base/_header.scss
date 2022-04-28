@@ -213,7 +213,16 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .br {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
   .header-page {
     color: var(--primary-text-color-theme-light);
     background-color: var(--primary-text-color-theme-dark);
@@ -267,10 +276,24 @@
   .navigation-list {
     margin: 0;
   }
-}
+  .tablet-contact {
+    flex-direction: inherit;
+    margin-left: 150px;
+  }
+  .header-contact__icon-phone {
+    margin-right: 10px;
+  }
 
-@media screen and (max-width: 1200px) {
-  .br {
-    display: none;
+  .navigation-list__link.link.current::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    top: 44px;
+    border-radius: 2px;
   }
 }
