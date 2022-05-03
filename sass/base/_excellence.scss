@@ -49,12 +49,15 @@
   .excellent-list {
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
+    margin-top: -15px;
+    margin-left: -15px;
   }
   .excellence-list-item {
-    margin: 15px;
-    flex-basis: calc((100% - 4 * 15px) / 2);
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-basis: calc((100% - 60px) / 2);
     text-align: left;
+    margin-bottom: 0;
   }
 }
 
