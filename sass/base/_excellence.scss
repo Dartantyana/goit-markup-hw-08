@@ -49,15 +49,13 @@
   .excellent-list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -15px;
-    margin-left: -15px;
+    margin-left: -10px;
+    margin-top: -10px;
   }
   .excellence-list-item {
-    margin-top: 30px;
-    margin-left: 30px;
-    flex-basis: calc((100% - 60px) / 2);
-    text-align: left;
-    margin-bottom: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    flex-basis: calc((100% - 30px) / 3);
   }
 }
 
@@ -68,7 +66,6 @@
   }
   .excellence-list {
     display: flex;
-
     margin-left: -30px;
   }
   .excellence-image-list {
@@ -81,9 +78,10 @@
     border-radius: 4px;
     margin-bottom: 30px;
   }
-  // .elements-section {
-  //   margin-left: 30px;
-  //   &:nth-last-of-type(n + 4) {
-  //     margin-bottom: 30px;
-  //   }
+  .elements-section {
+    margin-left: 30px;
+    &:nth-last-of-type(n + 4) {
+      margin-bottom: 30px;
+    }
+  }
 }
