@@ -10,7 +10,7 @@
 .team-section-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+  justify-content: center;
 }
 
 .section-item-style {
@@ -74,6 +74,20 @@
 }
 
 .elements-team-section {
-  flex-basis: calc((100% - 120px) / 4);
-  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+  .team-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+  }
+  .elements-team-section {
+    flex-basis: calc((100% - 120px) / 4);
+    margin-left: 30px;
+  }
 }

@@ -38,14 +38,7 @@
   padding-top: 60px;
 }
 
-@media screen and (max-width: 767px) {
-  .excellence-list {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .excellence-list {
     display: flex;
     flex-wrap: wrap;
@@ -67,8 +60,8 @@
   }
   .excellence-list {
     display: flex;
+    flex-wrap: nowrap;
     margin-left: -30px;
-    margin-top: 0;
     text-align: left;
   }
   .excellence-image-list {
@@ -82,7 +75,7 @@
     margin-bottom: 30px;
   }
   .elements-section {
-    margin-left: 15px;
+    margin-left: 30px;
     &:nth-last-of-type(n + 4) {
       margin-bottom: 30px;
     }
