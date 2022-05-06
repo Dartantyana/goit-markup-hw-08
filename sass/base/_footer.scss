@@ -1,113 +1,114 @@
-.footer-form {
-  text-align: center;
-}
+@media screen and (max-width: 767px) {
+  .footer-form {
+    text-align: center;
+  }
 
-.footer-page {
-  display: flex;
-  flex-direction: column;
-  padding-top: 64px;
-  justify-content: space-between;
-}
-.footer-page-section {
-  background-color: var(--backgroung-color-dark-theme);
-}
+  .footer-page {
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    justify-content: space-between;
+  }
+  .footer-page-section {
+    background-color: var(--backgroung-color-dark-theme);
+  }
 
-.footer-link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  .footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-.footer-link,
-.footer-logo {
-  color: var(--primary-text-color-theme-dark);
-}
+  .footer-link,
+  .footer-logo {
+    color: var(--primary-text-color-theme-dark);
+  }
 
-.mail-link-footer,
-.link-number-phone-footer {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-.address-link-footer {
-  font-style: normal;
-}
+  .mail-link-footer,
+  .link-number-phone-footer {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  .address-link-footer {
+    font-style: normal;
+  }
 
-.address-footer-section {
-  margin-top: 20px;
-  margin-bottom: 9px;
-}
-.link-phone {
-  margin-top: 9px;
-}
+  .address-footer-section {
+    margin-top: 20px;
+    margin-bottom: 9px;
+  }
+  .link-phone {
+    margin-top: 9px;
+  }
 
-.footer-container {
-  display: block;
-  margin-bottom: 60px;
-}
-.footer-contacts-item {
-  width: 44px;
-  height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  margin-right: 10px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:last-child {
-    margin-right: 0;
+  .footer-container {
+    display: block;
+    margin-bottom: 60px;
+  }
+  .footer-contacts-item {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:last-child {
+      margin-right: 0;
 
-    &:hover,
-    &:focus {
-      background-color: var(--accent-color);
+      &:hover,
+      &:focus {
+        background-color: var(--accent-color);
+      }
     }
   }
-}
 
-.footer-page-list {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-}
-.footer-contacts-list {
-  display: flex;
-  justify-content: center;
-}
+  .footer-page-list {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  .footer-contacts-list {
+    display: flex;
+    justify-content: center;
+  }
 
-.footer-icons {
-  fill: #ffffff;
-  width: 20px;
-  height: 20px;
-}
+  .footer-icons {
+    fill: #ffffff;
+    width: 20px;
+    height: 20px;
+  }
 
-.footer-contacts-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  &:focus,
-  &:hover {
-    background-color: var(--accent-color);
-    border-radius: 50%;
+  .footer-contacts-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    &:focus,
+    &:hover {
+      background-color: var(--accent-color);
+      border-radius: 50%;
+    }
+  }
+
+  .footer-page-item-left {
+    margin-bottom: 60px;
+  }
+
+  .footer-contact-title {
+    display: inline-block;
+    color: var(--primary-text-color-theme-dark);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    text-align: left;
   }
 }
-
-.footer-page-item-left {
-  margin-bottom: 60px;
-}
-
-.footer-contact-title {
-  display: inline-block;
-  color: var(--primary-text-color-theme-dark);
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  margin-bottom: 20px;
-  text-align: left;
-}
-
 @media screen and (min-width: 1200px) {
   .footer-page {
     display: flex;
