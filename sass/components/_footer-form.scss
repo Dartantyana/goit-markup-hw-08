@@ -1,64 +1,4 @@
 @media screen and (max-width: 767px) {
-  .form-link {
-    color: var(--accent-color);
-  }
-
-  .mail-link-footer:hover,
-  .mail-link-footer:focus {
-    color: var(--accent-color);
-  }
-
-  .link-number-phone-footer:hover,
-  .link-number-phone-footer:focus {
-    color: var(--accent-color);
-  }
-
-  .contact-form-footer {
-    display: flex;
-    justify-content: center;
-  }
-
-  .form-title {
-    display: inline-block;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-    width: 100%;
-  }
-
-  .contact-form-footer-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-    width: 200px;
-    height: 50px;
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 1.87;
-    color: var(--primary-text-color-theme-dark);
-    background-color: var(--accent-color);
-    cursor: pointer;
-    border: 0px;
-    min-width: 200px;
-    padding: 10px 32px;
-    margin-left: 10px;
-    font-family: 'Roboto';
-    font-style: normal;
-    letter-spacing: 0.06em;
-
-    color: #ffffff;
-  }
-
-  .image-button {
-    margin-left: 10px;
-  }
-
   .footer-contact-form-input {
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
@@ -71,11 +11,72 @@
     color: #ffffff;
     margin: 15px 20px;
   }
+}
 
-  .contact-form-footer-email {
-    color: #ffffff;
-  }
+.form-link {
+  color: var(--accent-color);
+}
 
+.mail-link-footer:hover,
+.mail-link-footer:focus {
+  color: var(--accent-color);
+}
+
+.link-number-phone-footer:hover,
+.link-number-phone-footer:focus {
+  color: var(--accent-color);
+}
+
+.contact-form-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.form-title {
+  display: inline-block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 100%;
+}
+
+.contact-form-footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color-theme-dark);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  border: 0px;
+  min-width: 200px;
+  padding: 10px 32px;
+  margin-left: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+
+.image-button {
+  margin-left: 10px;
+}
+
+.contact-form-footer-email {
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
   .footer-form {
     margin-left: auto;
     text-align: center;
@@ -92,62 +93,6 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  .form-link {
-    color: var(--accent-color);
-  }
-
-  .mail-link-footer:hover,
-  .mail-link-footer:focus {
-    color: var(--accent-color);
-  }
-
-  .link-number-phone-footer:hover,
-  .link-number-phone-footer:focus {
-    color: var(--accent-color);
-  }
-
-  .contact-form-footer {
-    display: flex;
-    justify-content: center;
-  }
-
-  .form-title {
-    display: inline-block;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-    width: 100%;
-  }
-
-  .contact-form-footer-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto;
-    font-weight: 700;
-    width: 200px;
-    height: 50px;
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 1.87;
-    color: var(--primary-text-color-theme-dark);
-    background-color: var(--accent-color);
-    cursor: pointer;
-    border: 0px;
-    min-width: 200px;
-    padding: 10px 32px;
-    margin-left: 10px;
-    font-family: 'Roboto';
-    font-style: normal;
-    letter-spacing: 0.06em;
-    color: #ffffff;
-  }
-
   .image-button {
     margin-left: 10px;
   }
@@ -165,12 +110,12 @@
   }
 
   .contact-form-footer-email {
-    margin-top: 20px;
     color: #ffffff;
   }
 
   .footer-form {
     margin-left: auto;
+    text-align: left;
   }
 
   .footer-contact-form-input {

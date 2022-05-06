@@ -2,6 +2,9 @@
   .footer-form {
     text-align: center;
   }
+  .footer-page-item-right {
+    text-align: center;
+  }
 
   .footer-page {
     display: flex;
@@ -97,6 +100,7 @@
 
   .footer-page-item-left {
     margin-bottom: 60px;
+    text-align: center;
   }
 
   .footer-contact-title {
@@ -116,6 +120,9 @@
     padding-top: 64px;
     padding-bottom: 56px;
     justify-content: space-between;
+  }
+  .footer-page-item-right {
+    text-align: left;
   }
 
   .footer-page-section {
@@ -180,6 +187,7 @@
 
   .footer-page-list {
     display: flex;
+    text-align: left;
   }
 
   .footer-contacts-list {
