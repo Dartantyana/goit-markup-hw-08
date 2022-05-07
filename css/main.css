@@ -798,6 +798,14 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    color: var(--accent-color);
+    letter-spacing: 0.03em;
+  }
   .footer-form {
     text-align: center;
   }
@@ -882,7 +890,6 @@ body {
     border-radius: 50%;
   }
   .footer-page-item-left {
-    margin-bottom: 60px;
     text-align: center;
   }
   .footer-contact-title {
@@ -897,9 +904,20 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .list-item-ftr {
+    display: flex;
+    justify-content: center;
+  }
+  .logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+  }
   .footer-page {
     display: flex;
-    height: 252px;
     padding-top: 64px;
     padding-bottom: 56px;
     justify-content: space-between;
@@ -936,7 +954,10 @@ body {
     margin-top: 9px;
   }
   .footer-container {
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
   }
   .footer-contacts-item {
     width: 44px;
@@ -955,7 +976,9 @@ body {
   }
   .footer-page-list {
     display: flex;
-    text-align: left;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 60px;
   }
   .footer-contacts-list {
     display: flex;
@@ -998,6 +1021,14 @@ body {
     padding-top: 64px;
     padding-bottom: 56px;
     justify-content: space-between;
+  }
+  .logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
   }
   .footer-page-item-right {
     text-align: left;
@@ -1053,10 +1084,12 @@ body {
   .footer-page-list {
     display: flex;
     text-align: left;
+    margin: 0;
   }
   .footer-contacts-list {
     display: flex;
     justify-content: left;
+    margin: 0;
   }
   .footer-icons {
     fill: #ffffff;
@@ -1588,17 +1621,18 @@ body {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background: #2f303a;
-    width: 358px;
+    min-width: 450px;
     height: 50px;
     padding-left: 15px;
     color: #ffffff;
+    margin-bottom: 20px;
   }
   .contact-form-footer-email {
     color: #ffffff;
   }
   .footer-form {
     margin-left: auto;
-    text-align: left;
+    text-align: center;
   }
   .footer-contact-form-input {
     display: inline;
@@ -1606,6 +1640,7 @@ body {
   .footer-email-form {
     display: flex;
     justify-content: left;
+    flex-direction: column;
   }
 }
 
@@ -1637,5 +1672,6 @@ body {
   .footer-email-form {
     display: flex;
     justify-content: left;
+    flex-direction: row;
   }
 }
