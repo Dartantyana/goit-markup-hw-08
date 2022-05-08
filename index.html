@@ -189,19 +189,37 @@
           <ul class="gallery-list list">
             <li class="gallery-list-item">
               <div class="image-onlay">
-                <img src="img/laptop.jpg" alt="Ноутбук" width="370" height="294" />
+                <picture>
+                  <source
+                    srcset="img/laptop.jpg 1x, img/laptop@2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <img src="img/laptop.jpg" alt="Десктоп" width="370" height="294" />
+                </picture>
                 <p class="onlay">Десктопные приложения</p>
               </div>
             </li>
             <li class="gallery-list-item">
               <div class="image-onlay">
-                <img src="img/telephone.jpg" alt="Телефон" width="370" height="294" />
+                <picture>
+                  <source
+                    srcset="img/telephone.jpg 1x, img/telephone@2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <img src="img/telephone.jpg" alt="Телефон" width="370" height="294" />
+                </picture>
                 <p class="onlay">Мобильные приложения</p>
               </div>
             </li>
             <li class="gallery-list-item">
               <div class="image-onlay">
-                <img src="img/tablet.jpg" alt="Планшет" width="370" height="294" />
+                <picture>
+                  <source
+                    srcset="img/tablet.jpg 1x, img/tablet@2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <img src="img/tablet.jpg" alt="Планшет" width="370" height="294" />
+                </picture>
                 <p class="onlay">Дизайнерские решения</p>
               </div>
             </li>
@@ -216,7 +234,22 @@
           <h2 class="team-section-title section-title title">Наша команда</h2>
           <ul class="team-section-list list list-section">
             <li class="elements-team-section">
-              <img src="img/demianenko.jpg" alt="Игорь Демьяненко" width="270" height="260" />
+              <picture>
+                <source
+                  srcset="img/demianenko-desktop.jpg 1x, img/demianenko-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="img/demianenko-tablet.jpg 1x, img/demianenko-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="img/demianenko-mobile.jpg 1x, img/demianenko-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="img/demianenko-desktop.jpg" alt="Игорь Демьяненко" />
+              </picture>
               <div class="section-item-style">
                 <h3 class="title-name section-title">Игорь Демьяненко</h3>
                 <p class="text-pharagrapher-picture">Product Designer</p>
@@ -253,7 +286,22 @@
               </div>
             </li>
             <li class="elements-team-section">
-              <img src="img/repina.jpg" alt="Ольга Репина" width="270" height="260" />
+              <picture>
+                <source
+                  srcset="img/repina-desktop.jpg 1x, img/repina-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="img/repina-tablet.jpg 1x, img/repina-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="img/repina-mobile.jpg 1x, img/repina-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="img/repina-desktop.jpg" alt="Ольга Репина" />
+              </picture>
               <div class="section-item-style">
                 <h3 class="title-name section-title">Ольга Репина</h3>
                 <p class="text-pharagrapher-picture">Frontend Developer</p>
@@ -290,7 +338,22 @@
               </div>
             </li>
             <li class="elements-team-section">
-              <img src="img/tarasov.jpg" alt="Николай Тарасов" width="270" height="260" />
+              <picture>
+                <source
+                  srcset="img/tarasov-desktop.jpg 1x, img/tarasov-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="img/tarasov-tablet.jpg 1x, img/tarasov-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="img/tarasov-mobile.jpg 1x, img/tarasov-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="img/tarasov-desktop.jpg" alt="Николай Тарасов" />
+              </picture>
               <div class="section-item-style">
                 <h3 class="title-name section-title">Николай Тарасов</h3>
                 <p class="text-pharagrapher-picture">Marketing</p>
@@ -327,7 +390,22 @@
               </div>
             </li>
             <li class="elements-team-section">
-              <img src="img/ermakov.jpg" alt="Михаил Ермаков" width="270" height="260" />
+              <picture>
+                <source
+                  srcset="img/ermakov-desktop.jpg 1x, img/ermakov-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="img/ermakov-tablet.jpg 1x, img/ermakov-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="img/ermakov-mobile.jpg 1x, img/ermakov-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+
+                <img src="img/ermakov-desktop.jpg" alt="Михаил Ермаков" />
+              </picture>
               <div class="section-item-style">
                 <h3 class="title-name section-title">Михаил Ермаков</h3>
                 <p class="text-pharagrapher-picture">UI Designer</p>
