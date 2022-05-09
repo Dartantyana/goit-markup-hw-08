@@ -11,6 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: -30px;
 }
 
 .section-item-style {
@@ -25,8 +26,8 @@
 .team-section {
   display: flex;
   background: var(--background-light-theme);
-  padding-top: 94px;
-  padding-bottom: 90px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .social-list-item {
@@ -86,9 +87,10 @@
     text-align: center;
   }
   .elements-team-section {
-    margin-left: 15px;
-    margin-top: 15px;
-    flex-basis: calc((100% - 30px) / 2);
+    margin-left: 30px;
+    margin-top: 30px;
+
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -96,9 +98,14 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
+    margin-bottom: -30px;
   }
   .elements-team-section {
     flex-basis: calc((100% - 120px) / 4);
     margin-left: 30px;
+  }
+  .team-section {
+    padding-top: 94px;
+    padding-bottom: 90px;
   }
 }

@@ -13,6 +13,13 @@
     opacity: 1;
     border-radius: 4px;
   }
+  .modal-form-title {
+    display: flex;
+    align-items: center;
+  }
+}
+.form-link {
+  font-size: 12px;
 }
 .contact-form {
   width: 100%;
@@ -81,7 +88,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
@@ -218,5 +225,11 @@
     height: 580px;
     background-color: #ffffff;
     padding: 40px;
+  }
+  .contact-form-text-link {
+    font-size: 14px;
+  }
+  .form-link {
+    font-size: 14px;
   }
 }

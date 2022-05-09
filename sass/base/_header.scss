@@ -7,7 +7,7 @@
   position: relative;
   padding-top: 16px;
   padding-bottom: 16px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header__container {
@@ -36,6 +36,12 @@
 
   .menu-navigation-list {
     text-align: left;
+  }
+  .menu-navigation-list-item {
+    margin-bottom: 36px;
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   .menu-navigation-list__mail {
@@ -168,9 +174,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 738px;
-  }
   .header-contact {
     margin: auto;
   }
